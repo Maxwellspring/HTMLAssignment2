@@ -29,9 +29,12 @@ a{
 .halp {
     background-color: rgb(163, 203, 203);
     width: 60vw;
-    margin: 1em;
-    border: 3px solid rgb(145, 186, 186);
+    margin-top: 50 px;
+    margin-bottom: 50px ;
     padding: 25px;
     border-radius: 1em;
     box-shadow: 1em 2em 2em rgb(116, 146, 146);
+    border-bottom: 10px solid rgb(145, 186, 186);
+    border-right: 10px solid rgb(145, 186, 186);
+    
 }
