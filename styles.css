@@ -1,4 +1,8 @@
 body {
+    height: 100dvh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     color:rgb(0, 44, 83); /*main text color*/
     background-color: rgb(236, 236, 236); /*main backround color*/
 }
@@ -13,4 +17,19 @@ h2 {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", "Arial" ;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    text-align: center;
+}
+.halp {
+    background-color: rgb(163, 203, 203);
+    width: 60vw;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 1em 2em 2em rgba(0,0,0,0.5);
 }
