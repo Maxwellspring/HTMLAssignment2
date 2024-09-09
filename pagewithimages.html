@@ -20,13 +20,42 @@
             <p>oh yea and you can get back <a href="pagewithsumlinks.html">here</a></p>
             <p>get back to le homepage <a href="index.html">here</a></p>
             <hr>
-            <h4>here be some trash mochi images</h4>
+            <!-- <h4>here be some trash mochi images</h4> -->
             
-            <button onclick="ShowMochiFunc()">Show</button>
+            <!-- <button onclick="TestsFunction()">Show</button> -->
 
-            <div id="ShowMochi" style="display:none">
-                <p>sdjfsidfjsidjf</p>
+            <!-- <div id="TestsDiv" style="display:none"> -->
+                <!-- <p>sdjfsidfjsidjf</p> -->
+            <!-- </div> -->
+
+            <h4>show trash mochi images</h2>
+            
+            <button id="showtrash">Show Image</button>
+            
+            <div class="trashymochi">
+                <img src="Images/mochi trash/mochi.png" alt="trash">
+                <img src="Images/mochi trash/mochi.jpg" alt="trash">
+                <img src="Images/mochi trash/mochi.gif" alt="trash">
+                <img src="Images/mochi trash/mochi.svg" alt="trash">
+
             </div>
+            
+             <img id="pngmochi" src="Images/mochi trash/mochi.png" style="display: none;">
+            <img id="jpgmochi" src="Images/mochi trash/mochi.jpg" style="display: none;">
+            <img id="gifmochi" src="Images/mochi trash/mochi.gif" style="display: none;">
+            <img id="svgmochi" src="Images/mochi trash/mochi.svg" width="150px" style="display: none;">
+            
+            <script>
+                const showImageButton = document.getElementById("showtrash");
+                const myImage1 = document.getElementById("pngmochi"); 
+                const myImage2 = document.getElementById("jpgmochi"); 
+                const myImage3 = document.getElementById("gifmochi"); 
+                const myImage4 = document.getElementById("svgmochi"); 
+                showImageButton.addEventListener("click", () => {  myImage1.style.display = "block"; });
+                showImageButton.addEventListener("click", () => {  myImage2.style.display = "block"; });
+                showImageButton.addEventListener("click", () => {  myImage3.style.display = "block"; });
+                showImageButton.addEventListener("click", () => {  myImage4.style.display = "block"; });
+            </script> 
 
         </div>
     </body>

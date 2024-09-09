@@ -95,3 +95,14 @@ a:active {
     color: red;
     text-decoration: overline;
 }
+
+button {
+    color: rgb(0, 44, 83);
+    border-radius: 2px;
+    border-color: rgb(212, 235, 255);
+    background-color: rgb(212, 235, 255);
+}
+
+.trashymochi {
+    display: none; /* Start with images hidden */
+}
