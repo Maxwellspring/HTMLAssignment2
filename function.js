@@ -22,17 +22,17 @@
 
 
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    const button = document.getElementById('showtrash');
-    const imageContainer = document.querySelector('.trashymochi');
+// document.addEventListener('DOMContentLoaded', (event) => {
+//     const button = document.getElementById('showtrash');
+//     const imageContainer = document.querySelector('.trashymochi');
 
-    button.addEventListener('click', () => {
-        if (imageContainer.style.display === 'none' || imageContainer.style.display === '') {
-            imageContainer.style.display = 'show';
-            button.textContent = 'Hide Images';
-        } else {
-            imageContainer.style.display = 'none';
-            button.textContent = 'Show Images';
-        }
-    });
-});
+//     button.addEventListener('click', () => {
+//         if (imageContainer.style.display === 'none' || imageContainer.style.display === '') {
+//             imageContainer.style.display = 'show';
+//             button.textContent = 'Hide Images';
+//         } else {
+//             imageContainer.style.display = 'none';
+//             button.textContent = 'Show Images';
+//         }
+//     });
+// });
