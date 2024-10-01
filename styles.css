@@ -21,7 +21,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p, a, ol, ul, li {
     text-align: center;
-}
+
+} 
 
 
 .meh {
@@ -105,4 +106,37 @@ button {
 
 .trashymochi {
     display: none; /* Start with images hidden */
+}
+
+.linkies-and-extra {
+    background-color: rgb(88, 90, 91);
+    color: rgb(204, 207, 212);
+    position: sticky;
+    top: -1px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(46, 48, 48);
+    text-align: right;
+    text-decoration-color: beige;
+    text-decoration: wavy;
+}
+
+
+
+
+
+
+/* bad below */
+
+
+
+
+.sticky-divy {
+    background-color: green;
+    position: sticky;
+    margin-top: 100px;
+    border-top: 100px;
+    padding-top: 100px;
+    text-decoration: overline;
+    text-decoration-color: beige;
 }
